@@ -1,0 +1,50 @@
+<html>
+<head>
+	<link rel="stylesheet" href="formulario.css">
+	<title> formulario </title>
+	<Meta Charset="utf-8">
+</head>
+<body>
+<div class="registro-container">
+	<h2> Registro de usuario </h2>
+	<form method="post">
+	<label for="nombre"> Nombre:</label>
+	<input type="text" id="nombre" name="nombre"
+	placeholder="ingresa tu nombre" required>
+	
+	<label for="apellido">apellido:</label>
+	<input type="text" id="apellido" name="apellido"
+	placeholder="ingresa tu apellido" required> 
+
+	<label for="usuario"> usuario:</label>
+	<input type="text" id="usuario" name="usuario"
+	placeholder="ingresa tu usuario" required>
+	
+	<label for="contraseña"> contraseña:</label>
+	<input type="password" id="contraseña" name="contraseña"
+	placeholder="minimo 6 caracteres">
+
+	<label for="fecha">fecha de nacimiento: </label> 
+	<input type="date" id="fecha" name="fecha" required>
+	
+	<Label for="Genero">Genero: </label>
+<select id ="genero" name="genero" required>
+		<option value=" " > selecciong...</option>
+		<option value="masculino" >masculino</option>
+		<option value="femenino" >femenino</option>
+		<option value="otro" >otro</option>
+</select>
+
+	<label>
+	<input type="checkbox" name= "terminos"
+	required> acepto los terminos </label>
+
+<button type="submit" class="boton">
+registrame </button>
+
+<p class="nota"> tiene una cuenta
+<a href=" ">inicia secion aqui </a> </p>
+</div>
+</body>
+</html>	
+	   
